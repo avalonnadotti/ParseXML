@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00"><NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="NFe33230613307123000626550010000004211000043353" versao="4.00"><ide><cUF>33</cUF><cNF>00004335</cNF><natOp>TRANSFERENCIA DE MERCAD. RECEB. OU ADQ. DE TERC.</natOp><mod>55</mod><serie>1</serie><nNF>421</nNF><dhEmi>2023-06-22T17:07:00-03:00</dhEmi><dhSaiEnt>2023-06-22T17:07:00-03:00</dhSaiEnt><tpNF>1</tpNF><idDest>1</idDest><cMunFG>3303302</cMunFG><tpImp>1</tpImp><tpEmis>1</tpEmis><cDV>3</cDV><tpAmb>1</tpAmb><finNFe>1</finNFe><indFinal>0</indFinal><indPres>1</indPres><procEmi>0</procEmi><verProc>4.0.43-2</verProc></ide><emit><CNPJ>13307123000626</CNPJ><xNome>KORIN ADMINISTRACAO DE FRANQUIA LTDA</xNome><xFant>LOJA NITEROI</xFant><enderEmit><xLgr>RUA DOUTOR TAVARES DE MACEDO</xLgr><nro>96</nro><xBairro>ICARAI</xBairro><cMun>3303302</cMun><xMun>NITEROI</xMun><UF>RJ</UF><CEP>24220211</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>2138430128</fone></enderEmit><IE>12520395</IE><CRT>3</CRT></emit><dest><CNPJ>13307123000464</CNPJ><xNome>KORIN ADMINISTRACAO DE FRANQUIA LTDA</xNome><enderDest><xLgr>RUA VOLUNTARIOS DA PATRIA</xLgr><nro>185</nro><xBairro>BOTAFOGO</xBairro><cMun>3304557</cMun><xMun>RIO DE JANEIRO</xMun><UF>RJ</UF><CEP>22270001</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>2135915259</fone></enderDest><indIEDest>1</indIEDest><IE>87465470</IE></dest><entrega><CNPJ>13307123000464</CNPJ><xLgr>RUA VOLUNTARIOS DA PATRIA</xLgr><nro>185</nro><xBairro>BOTAFOGO</xBairro><cMun>3304557</cMun><xMun>RIO DE JANEIRO</xMun><UF>RJ</UF></entrega><det nItem="1"><prod><cProd>118</cProd><cEAN>0000000001182</cEAN><xProd>FILE MIGNON SUINO DUROC ORGANICO CONGELADO KG</xProd><NCM>02032900</NCM><cBenef>RJ802164</cBenef><CFOP>5152</CFOP><uCom>KG0001</uCom><qCom>1.1160</qCom><vUnCom>61.926523</vUnCom><vProd>69.11</vProd><cEANTrib>0000000001182</cEANTrib><uTrib>KG0001</uTrib><qTrib>1.1160</qTrib><vUnTrib>61.926523</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMS20><orig>0</orig><CST>20</CST><modBC>3</modBC><pRedBC>41.67</pRedBC><vBC>40.31</vBC><pICMS>12.00</pICMS><vICMS>4.84</vICMS><vICMSDeson>3.93</vICMSDeson><motDesICMS>9</motDesICMS></ICMS20></ICMS><IPI><cEnq>999</cEnq><IPITrib><CST>99</CST><qUnid>1.1160</qUnid><vUnid>0.0000</vUnid><vIPI>0.00</vIPI></IPITrib></IPI><PIS><PISOutr><CST>49</CST><vBC>64.27</vBC><pPIS>0.00</pPIS><vPIS>0.00</vPIS></PISOutr></PIS><COFINS><COFINSOutr><CST>49</CST><vBC>64.27</vBC><pCOFINS>0.00</pCOFINS><vCOFINS>0.00</vCOFINS></COFINSOutr></COFINS></imposto></det><total><ICMSTot><vBC>40.31</vBC><vICMS>4.84</vICMS><vICMSDeson>3.93</vICMSDeson><vFCP>0.00</vFCP><vBCST>0.00</vBCST><vST>0.00</vST><vFCPST>0.00</vFCPST><vFCPSTRet>0.00</vFCPSTRet><vProd>69.11</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vIPIDevol>0.00</vIPIDevol><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>69.11</vNF><vTotTrib>0.00</vTotTrib></ICMSTot></total><transp><modFrete>1</modFrete><transporta><CNPJ>13307123000464</CNPJ><xNome>KORIN ADM DE FRANQUIA LTDA</xNome><IE>87465470</IE><xEnder>VOLUNTARIOS DA PATRIA</xEnder><xMun>RIO DE JANEIRO</xMun><UF>RJ</UF></transporta><vol><qVol>1</qVol></vol></transp><pag><detPag><indPag>1</indPag><tPag>15</tPag><vPag>69.11</vPag></detPag><vTroco>0.00</vTroco></pag><infAdic><infCpl>BASE ST: 0,00 - ICMS ST: 0,00 - VALOR FCP ST: 0,00 - TRIBUTOS APROX: 9,30 (13,45%) FONTE: IBPT</infCpl></infAdic></infNFe><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#NFe33230613307123000626550010000004211000043353"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>V5eGA72sxDGkIHZnMQ04AnggWwE=</DigestValue></Reference></SignedInfo><SignatureValue>Ee7t6BnwI8WScnAQ+wJCDQ7bP8iHQuyzh+cILa51uTejSD1DrpoWuJ2pxN8gAp95wKKlhLzsZ/sp
+5qt9kO58CIlY3AMdbIPZv5QMni2PQuZ+pb947r7dBmiIxAeHF26mUH3TPDp8BMvqVWCjG6RI/8Mw
+xk88rryhAKFWxWblOj2LqJqfbHUBckS4M2fjFif/zvWkFBdgX8yFx9Zxkqo+xbl2L4/t5SJJ5lpQ
+C0IMG3fWcthd53jJLN+2ycWeay+ct8nr/TwpFII14b1XGAfKQilQVx/e9wIhpuF4qUBzFRnofr1E
+mZiS/ppAmYyRBp8KXiPC+NbyO+WoCk4PFINjYQ==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIHSTCCBTGgAwIBAgIIG0kjBgVlJtgwDQYJKoZIhvcNAQELBQAwWTELMAkGA1UEBhMCQlIxEzAR
+BgNVBAoTCklDUC1CcmFzaWwxFTATBgNVBAsTDEFDIFNPTFVUSSB2NTEeMBwGA1UEAxMVQUMgU09M
+VVRJIE11bHRpcGxhIHY1MB4XDTIzMDYwNjE5MDUwMFoXDTI0MDYwNTE5MDUwMFowgekxCzAJBgNV
+BAYTAkJSMRMwEQYDVQQKEwpJQ1AtQnJhc2lsMQswCQYDVQQIEwJSSjEQMA4GA1UEBxMHTml0ZXJv
+aTEeMBwGA1UECxMVQUMgU09MVVRJIE11bHRpcGxhIHY1MRcwFQYDVQQLEw4zMjIwMjQzNjAwMDE1
+MDETMBEGA1UECxMKUHJlc2VuY2lhbDEaMBgGA1UECxMRQ2VydGlmaWNhZG8gUEogQTExPDA6BgNV
+BAMTM0tPUklOIEFETUlOSVNUUkFDQU8gREUgRlJBTlFVSUEgTFREQToxMzMwNzEyMzAwMDYyNjCC
+ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIGVMWx3EDwlYvQ7JZaGCtLocx2nyAHUn5i8
+frYgykq8KPxpVw93ChO2h76UV2owN5DY3C3aTjViRviKrDd98C05oeTuIpMpLxW7x/DnHvtqDpd/
+vL/Kez/apPMa9sqErW2DAh95BPEjz3Wjgw2ev0WYKsFbGa6awJh4+pW8BvHdCbFRurQiGRyZ2GmZ
+Zp5zzBU7UNNcXs2cWt8L81IKpPur1TUx8a88PvJ2LipeGqSUjYHlIncnhC3tpXfvuws/m5H/kn5g
+QDnfQhBlVl2F0TLRMysMkbr30wekLEV5REbHc7//KQ0f8wCLf9MuHpu6PXj//7Xef+a/IwvoyTAH
+0ZcCAwEAAaOCAoIwggJ+MAkGA1UdEwQCMAAwHwYDVR0jBBgwFoAUxVLtJYAJ35yCyJ9Hxt20XzHd
+ubEwVAYIKwYBBQUHAQEESDBGMEQGCCsGAQUFBzAChjhodHRwOi8vY2NkLmFjc29sdXRpLmNvbS5i
+ci9sY3IvYWMtc29sdXRpLW11bHRpcGxhLXY1LnA3YjCBvQYDVR0RBIG1MIGygSVlZHNvbi5zaGln
+dWVtb3RvQGtvcmluZnJhbnF1aWEuY29tLmJyoBsGBWBMAQMCoBITEEVEU09OIFNISUdVRU1PVE+g
+GQYFYEwBAwOgEBMOMTMzMDcxMjMwMDA2MjagOAYFYEwBAwSgLxMtMjYwOTE5NjAwMTIxMjMyNDg0
+NjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwoBcGBWBMAQMHoA4TDDAwMDAwMDAwMDAwMDBdBgNV
+HSAEVjBUMFIGBmBMAQIBJjBIMEYGCCsGAQUFBwIBFjpodHRwOi8vY2NkLmFjc29sdXRpLmNvbS5i
+ci9kb2NzL2RwYy1hYy1zb2x1dGktbXVsdGlwbGEucGRmMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggr
+BgEFBQcDBDCBjAYDVR0fBIGEMIGBMD6gPKA6hjhodHRwOi8vY2NkLmFjc29sdXRpLmNvbS5ici9s
+Y3IvYWMtc29sdXRpLW11bHRpcGxhLXY1LmNybDA/oD2gO4Y5aHR0cDovL2NjZDIuYWNzb2x1dGku
+Y29tLmJyL2xjci9hYy1zb2x1dGktbXVsdGlwbGEtdjUuY3JsMB0GA1UdDgQWBBQTxOmmj5PnmDik
+zxJIk40AzBmG6jAOBgNVHQ8BAf8EBAMCBeAwDQYJKoZIhvcNAQELBQADggIBACTY3ijclSdJ2w0l
+t17kOfry4F5r2/IuUxLT2zDIVyqaA0Q7ZENybT3QCZ4Zu1gT/6pf+E4icIADJEgORLeLYPtQUU0N
+5UkAYHiPTYjoQuobhE4ZX6ZY9NubX8uEW6AgKBUIYoNOn5LaYvEghZhta5SONYjPKeoN7bA8zfEB
+dpbLVGCxvregqFaTjWrAca1uqqkMaS85rOM17O9D2s35r7za7dau82WpERWjttfc5D3+VgGErl9t
+Q2e8zp48UpfV0yxWMKubJp6u9xWNaRwtLPCjOvC3xm3ljT8O4okHaXewoPl5gwLbyO3tZJaJlhJf
+a9J5Ne3z1v7tzsqSyR5Gm1yQ+mEoxTMrDrbsTmkw2E/z9AYVYWFjQZ66MaQmDNGPxM4NZ4ilmXkJ
+X+OD89W7W5tlZ7TjiJVjQAFLruTFL2orn+Az8SPm+mWw+7ju340eWNCUmta81YONzd6Jay/SxXeO
+LIVQoHAPiLN0LwZEl/KDXlacVLf2A0sPUDfEVpEs/nc9tDpUO1SfQh46qPGrXaaJ4TvZ9ngkHNwZ
+UG7qxrI29C/aF1tm4PJvOnmIA6D2w9Y1FXA7zbuj69b1MCHpV6EudiAo1/KWXa57zg9AYFelKlkK
+TsZNkj1K6GFnGtATIfGdpAtEFtb4VuJvC0gwHUlLX4rGb5GDnJYCpnL/JkQa</X509Certificate></X509Data></KeyInfo></Signature></NFe><protNFe versao="4.00" xmlns="http://www.portalfiscal.inf.br/nfe"><infProt><tpAmb>1</tpAmb><verAplic>SVRS202306130906</verAplic><chNFe>33230613307123000626550010000004211000043353</chNFe><dhRecbto>2023-06-22T17:08:11-03:00</dhRecbto><nProt>333230129468309</nProt><digVal>V5eGA72sxDGkIHZnMQ04AnggWwE=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></nfeProc>

@@ -44,7 +44,7 @@ $.ajax({
                         let dhEmi = $(this).find("ide dhEmi").text();
                         let dhSaiEnt = $(this).find("ide dhSaiEnt").text();
                         let tpNF = $(this).find("ide tpNF").text();
-                        let idDest = $(this).find("ide ide idDest").text();
+                        let idDest = $(this).find("ide idDest").text();
                         let cMunFG = $(this).find("ide cMunFG").text();
                         let tpEmis = $(this).find("ide tpEmis").text();
                         let tpAmb = $(this).find("ide tpAmb").text();
@@ -55,39 +55,40 @@ $.ajax({
                         let emit_cnpj = $(this).find("emit CNPJ").text();
                         let emit_CPF = $(this).find("emit CPF").text();
                         let emit_xNome = $(this).find("emit xNome").text();
-                        
+                        let emit_xFant = $(this).find("emit xFant").text();
+
                         let dest_cnpj = $(this).find("dest CNPJ").text();
                         let dest_CPF = $(this).find("dest CPF").text();
                         let dest_xNome = $(this).find("dest xNome").text();
-                        
-                        
-                        
+
                         $("#nota").append(`
                                                 <div class="xml">
                                                 <p class="SubTitle"> <strong>IDE   </strong></p>
-                                                <p class="tagXml"> <strong>infNFe   </strong> ${infNFe} </p>
-                                                <p class="tagXml"> <strong>natOp</strong> ${natOp} </p>
-                                                <p class="tagXml"> <strong>mod</strong> ${mod} </p>
-                                                <p class="tagXml"> <strong>serie</strong> ${serie} </p>
-                                                <p class="tagXml"> <strong>nNF</strong> ${nNF}</p>
-                                                <p class="tagXml"> <strong>dhEmi</strong> ${dhEmi} </p>
-                                                <p class="tagXml"> <strong>dhSaiEnt</strong> ${dhSaiEnt} </p>
-                                                <p class="tagXml"> <strong>tpNF</strong> ${tpNF} </p>
-                                                <p class="tagXml"> <strong>idDest</strong> ${idDest} </p>
-                                                <p class="tagXml"> <strong>cMunFG</strong> ${cMunFG} </p>
-                                                <p class="tagXml"> <strong>tpEmis</strong> ${tpEmis} </p>
-                                                <p class="tagXml"> <strong>tpAmb</strong> ${tpAmb} </p>
-                                                <p class="tagXml"> <strong>finNFe </strong> ${finNFe} </p>
-                                                <p class="tagXml"> <strong>indFinal </strong> ${indFinal} </p>
-                                                <p class="tagXml"> <strong>indPres   </strong> ${indPres} </p>
+                                                <p class="tagXml"> <strong>infNFe  -	chavenfe </strong> ${infNFe} </p>
+                                                <p class="tagXml"> <strong>natOp   	-	naturezaoperacao</strong> ${natOp} </p>
+                                                <p class="tagXml"> <strong>mod  	-	modelo</strong> ${mod} </p>
+                                                <p class="tagXml"> <strong>serie  	-	serie</strong> ${serie} </p>
+                                                <p class="tagXml"> <strong>nNF  	-	numeronfe</strong> ${nNF}</p>
+                                                <p class="tagXml"> <strong>dhEmi   	-	datahoraemissao</strong> ${dhEmi} </p>
+                                                <p class="tagXml"> <strong>dhSaiEnt  	-	datahorasaidaentrada</strong> ${dhSaiEnt} </p>
+                                                <p class="tagXml"> <strong>tpNF  	-	tipooperacao</strong> ${tpNF} </p>
+                                                <p class="tagXml"> <strong>idDest  	-	localdestinooperacao</strong> ${idDest} </p>
+                                                <p class="tagXml"> <strong>cMunFG  	-	codigomunicipiofatogerador</strong> ${cMunFG} </p>
+                                                <p class="tagXml"> <strong>tpEmis  	-	tipoemissao</strong> ${tpEmis} </p>
+                                                <p class="tagXml"> <strong>tpAmb  	-	tipoambiente</strong> ${tpAmb} </p>
+                                                <p class="tagXml"> <strong>finNFe   	-	finalidadeemissão</strong> ${finNFe} </p>
+                                                <p class="tagXml"> <strong>indFinal   	-	indconsumidorfinal</strong> ${indFinal} </p>
+                                                <p class="tagXml"> <strong>indPres    	-	indicadorpresenca</strong> ${indPres} </p>
                                                 <p class="SubTitle"> <strong>Emit   </strong></p>
                                                 <p class="tagXml"> <strong>CNPJ</strong> ${emit_cnpj} </p>
                                                 <p class="tagXml"> <strong>CPF</strong> ${emit_CPF} </p>
                                                 <p class="tagXml"> <strong>xNome</strong> ${emit_xNome} </p>
+                                                <p class="tagXml"> <strong>xFant</strong> ${emit_xFant} </p>
                                                 <p class="SubTitle"> <strong>Dest   </strong></p>
                                                 <p class="tagXml"> <strong>CNPJ</strong> ${dest_cnpj} </p>
                                                 <p class="tagXml"> <strong>CPF</strong> ${dest_CPF} </p>
                                                 <p class="tagXml"> <strong>xNome</strong> ${dest_xNome} </p>
+                                                
                                                 <hr>
                                                 `);
                                                 
